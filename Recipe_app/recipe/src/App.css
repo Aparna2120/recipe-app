@@ -1,0 +1,65 @@
+.App{
+  min-height: 100vh;
+  /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
+  background-color: #FAD0C4;
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+  border-radius: 5px  0 0 5px;
+}
+
+.search-button{
+  background: #4C131A;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  text-transform: capitalize;
+}
+
+.recipes{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #fff;
+  margin: 1em;
+  text-align: center;
+}
+
+ol{
+  margin: 1em;
+}
+
+.recipe_image__CeZTV{
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.recipe_recipe__eprO7{
+  width: 500px;
+  background-color: #4C131A;
+  color: #fff;
+}
+
+
+
+
+
+
